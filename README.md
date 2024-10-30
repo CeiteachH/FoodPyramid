@@ -8,4 +8,5 @@ An	interactive	Food	Pyramid	allows	you	to	record	the	number	of	foods	consumed	in
 categorising	and	recording	the	food	types	for	each	shelf
 (Front end elements only, no database)
 (Completed using Html, CSS, Javascript)
+
 ![Food Pyramid](https://github.com/user-attachments/assets/07260073-27f1-4ec4-95a8-86b973a65728)
