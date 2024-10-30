@@ -6,4 +6,5 @@ range	of	nutrients	and	energy	needed	for	good	health.	Healthy	eating	is	all	abou
 amounts	from	each	shelf.	
 An	interactive	Food	Pyramid	allows	you	to	record	the	number	of	foods	consumed	in	any	given	day	by	
 categorising	and	recording	the	food	types	for	each	shelf
-(	Front end elements only, no database)
+(Front end elements only, no database)
+(Completed using Html, CSS, Javascript)
