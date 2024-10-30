@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(144, 0, 255);
+}
+
+#pyramid{
+    margin: 12px;
+    
+    background-color: rgb(210, 215, 219);
+}
+
+.button-container {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    
+}
+
+.button {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    background-color: hotpink;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    opacity: 0;
+    border: 2px solid white
+}
+
+#triangle .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 120px;
+}
+
+
+.level:hover .button {
+    transition: opacity 0.5s ease;
+    opacity: 1; 
+}
+
+.level:hover {
+    transition: opacity 1s ease;
+    filter: brightness(1.15);
+}
+
+
+.counter {
+    
+    font-size: 20px;
+    opacity: 1;
+    background-color: hotpink;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 2px solid white;
+}
+
+
+
+.level {
+    position: relative;
+    text-align: center;
+}
+
+
+
+#dateInput {
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 1.2vw;
+}
+/* the top level of pyramid */
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid red;
+    margin: auto;
+    margin-bottom: -10px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* shape, size, color of the levels  */
+#level1 {
+    border-top: 20px solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(255, 153, 0);
+    height: 0;
+    margin: auto;
+    width: 220px;
+    text-align: center;
+}
+
+#level2 {
+    border-top: 12px solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(238, 227, 0);
+    height: 0;
+    margin: auto;
+    width: 432px;
+    text-align: center;
+}
+
+
+
+#level3{
+    
+    border-top: 0 solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(0, 139, 238);
+    height: 0;
+    margin: auto;
+    width: 632px;
+    text-align: center;
+
+}
+
+#level4{
+    
+    border-top: 0 solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(139, 38, 38);
+    height: 0;
+    margin: auto;
+    width: 832px;
+    text-align: center;
+
+}
+
+#level5{
+    
+    border-top: 0 solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(43, 184, 22);
+    height: 0;
+    margin: auto;
+    width: 1032px;
+    text-align: center;
+
+}
